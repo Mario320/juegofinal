@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/comentarios.js"></script>
+
+	<meta charset="UTF-8">
+	<title>Juego Batman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scale=no">
+	<link type="text/css" rel="stylesheet" href="css/comentarios.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<link rel="stylesheet" href="css/estilobase_reglas.css" media="screen and (min-width:769px)">
+
+	<link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:481px) and (max-width:768px) ">
+
+	<link type="text/css" rel="stylesheet" href="css/movil.css" media="screen and (max-width:480px) ">
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" media="screen" href="css/styles.css" >
+	
+</head>
+<body background="img/fondo.jpg">
+<div id="div-imagen"><img id="segundo-logo" src="img/logo-definitivo.jpg"></div>
+
+<nav>
+<ul>
+    <li><a title="Opcion 1" href="index.html">Inicio</a></li>
+    <li><a title="Opcion 2" href="reglas.html">Reglas</a></li>
+    <li><a title="Opcion 3" href="juego.html">Juego</a></li>
+    <li><a title="Opcion 4" href="personajes.html">Personajes</a></li>
+    <li><a title="Opcion 5" href="creadores.html">Creadores</a></li>
+     <li><a title="Opcion 6" href="comentarios.html">Contacto</a></li>
+</ul>
+</ul>
+</nav>
+
+
+<section id="content">
+
+		 <!-- Text input-->
+
+		 
+ <div class="form-group">
+ <label id="hola" for="textnombre">Nombre</label>
+ <h3 id="campito">Ingrese su nombre</h3>
+ <div class="col-md-4">
+ <input id="textnombre" name="textnombre" type="text" placeholder="Nombre" class="form-control input-md" required>
+ 
+ </div>
+ </div>
+ 
+ <div class="form-group"><br>
+ <label id="hola2" for="selectbasic">Opcion de Comentario</label>
+ <div id="cajacomentario">
+ <select id="selectbasic" name="selectbasic" class="form-control" required>
+  <option value="Juego">Juego</option>
+ <option value="creadores">Para los creadores</option>
+ <option value="Queja">Queja</option>
+  </select>
+ </div>
+ </div>
+ <br>
+ 
+ <div class="form-group">
+ <label id="hola" for="textcontenido">Comentario</label>
+ <div class="col-md-4">
+ <textarea class="form-control" id="textcontenido" name="textcontenido" required ></textarea>
+ </div>
+ </div>
+
+ <div class="form-group">
+ <label class="col-md-4 control-label" for="singlebutton"></label>
+ <div class="col-md-4">
+ <input type="button" id="btncomentar" name="btncomentar" class="btn btn-primary" value="Comentar">
+ </div>
+ </div>
+ </fieldset>
+ </form>
+
+
+
+ <div id="Comentarios" class="container">
+ <h1>Comentarios sobre Servicios:</h1>
+ </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+		<footer>
+			&copy; copyright. | All right reserved. | Juego batman 2016.
+		</footer>
+
+</body>
+</html>
