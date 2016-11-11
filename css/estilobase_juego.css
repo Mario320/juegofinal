@@ -1,0 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+*{
+	font-family: 'Didact Gothic',sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Estilos iniciales*/
+
+body{
+	margin: 0px;
+	/*background-color: #C0C0C0;*/
+	 background: url(../img/fondo4.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	padding-left: 250px;
+}
+#banner{
+}
+
+.logojpg{
+	width: 40%;
+	height: 40%;
+	display: none;
+
+}
+
+
+p{
+	margin: 19px;
+	font-size: 19px;
+	font-weight: bolder;
+}
+h1{
+	font-size: 1.3rem;
+	text-align: center;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+
+}
+h1.titulo{
+	font-size: 1.3rem;
+	text-align: center;
+	color: gray;
+	font-family: 'Indie Flower', cursive;
+}
+h1.titulo2{
+	font-size: 1.9rem;
+	text-align: center;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bolder;
+}
+
+/*hedaer*/
+header{
+
+	width: 100%;
+	padding: 30px 0px;
+	/*background-image: url("img/fondo1.jpg");*/
+	
+}
+/*#encabezado{
+
+	width: 100%;
+		
+	margin: 0 auto;
+	clear: left;
+}
+*/
+
+/*Menu*/
+
+
+
+label.toggle, [id^=drop]{
+	/*Oculto el icono con clase toggle y todos los checkbox cuyo id
+	comience con la cadena "drop"*/
+	display: none;
+}
+
+
+
+
+
+
+/*contenido principal de las paginas*/
+
+
+#content{
+	width: 95%;
+
+	/*margin: 0px auto;*/
+	margin: 2%;
+	/*clear: left;*/
+	background-color: rgba(244,244,244,0.29);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 6px;
+	padding-top: 20px;
+	padding-left: 20px;
+	}
+
+
+#contenido{
+	width: 960px;
+	margin: 0px auto;
+	clear: left;
+	padding: 3%;
+	
+}
+
+.lugar{
+	width: 258px;
+	padding: 3%;
+	
+	background-color: white;
+	margin: 15px 15px;
+	border: solid 1px black;
+	border-radius: 8px;
+	float: left;
+	text-align: justify;
+	
+}
+/*opacar las imagenes*/
+.lugar img{
+	opacity: 0.5;
+	transition: 2s;
+
+}
+.lugar img:hover{
+	opacity: 1;
+}
+
+
+#contenido div:nth-child(3n+1){
+	margin-left: 0px;
+}
+
+#contenido div:nth-child(3n){
+	margin-right: 0px;
+}
+
+.boton{
+	background-color: black;
+	padding: 7px;
+	border-radius: 3px;
+	
+	margin-top: 10px;
+	font-size: .9em;
+	text-align: center;
+	
+}
+.restau{
+	text-decoration: none;
+	color: white;
+}
+
+#descrip{
+	clear: left;
+}
+
+#descrip article{
+	text-align: justify;
+}
+
+
+
+
+/*Pie de pagina*/
+footer{
+	text-align: center;
+	margin: 0;
+	font-size: .9em;
+	line-height: 2;
+	clear: both;
+	background-color: #464d52;
+	color: white;
+	width: 100%;
+	padding-top: 5px;
+}
+/*Estilo de Reservaciones*/
+
+section#reservacion{
+	column-count: 2;
+	column-gap: 10px;
+	-webkit-column-count:2;
+	-webkit-column-gap:10px;
+	-moz-column-count:2;
+	-moz-column-gap:10px;
+	}
+div#reser{
+	background-color: black;
+	color: white;
+	width: 90%;
+	margin: 5%;
+}
+
+
+
+
+/*otra pag*/
+#M:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transition: 2s;
+	-webkit-transition: 2s;
+	background-color: black;
+	color: white;
+}
+
+#V,#M{
+	margin: 30px 0px 30px 15px; 
+	padding: 5%;
+	background-color:#FAF3DD;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#V:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transition: 2s;
+	-webkit-transition: 2s;	
+	background-color: black;
+	color: white;
+}
+
+#batmangrande {
+	width: 100px;
+	height: 100px;
+}
+
+
+#div-imagen {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+#bannerop {
+	width: 700px;
+	height: 250px;
+	margin-left: 3%;
+}
+#bannerpersonajes {
+	margin-left: 12%;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,424 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+*{
+	font-family: 'Didact Gothic',sans-serif;
+	margin: 0;
+	padding: 0; 
+}
+
+
+/*Estilos iniciales*/
+
+body{
+	margin: 0px;
+	
+     background: url(../img/fondo4.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+	
+}
+
+.logojpg{
+	display: none;
+	width: 40%;
+	height: 40%;
+
+}
+
+
+p{
+	margin: 19px;
+	font-size: 19px;
+	font-weight: bolder;
+}
+h1{
+	font-size: 4.3rem;
+	text-align: center;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+   
+
+}
+h1.titulo{
+	font-size: 1.3rem;
+	text-align: center;
+	color: gray;
+	font-family: 'Indie Flower', cursive;
+}
+h1.titulo2{
+	font-size: 1.9rem;
+	text-align: center;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bolder;
+}
+
+
+
+/*hedaer*/
+header{
+
+	width: 100%;
+	padding: 30px 0px;
+	background-color: transparent;
+}
+/*#encabezado{
+
+	width: 100%;
+		
+	margin: 0 auto;
+	clear: left;
+}
+*/
+
+/*Menu*/
+
+
+
+label.toggle, [id^=drop]{
+	/*Oculto el icono con clase toggle y todos los checkbox cuyo id
+	comience con la cadena "drop"*/
+	display: none;
+}
+
+#mapa{
+	float: right;
+}
+
+
+
+
+#imgDesc{
+	margin-top: 60px;
+}
+#pantallaini{
+	margin-left: 10%;
+	
+}
+
+#slider-container {
+    height: 20%;
+    margin: 0 auto;   
+    overflow: hidden ;
+    width: 70% ;
+    
+}
+/*contenedor animado y con trasicion*/
+#slider-box {
+    -moz-animation: autoSlider 15s infinite linear;
+    -o-animation: autoSlider 15s infinite linear;
+    -webkit-animation: autoSlider 15s infinite linear;
+    animation: autoSlider 15s infinite linear;
+    -webkit-transition: all 0.75s linear;
+    -moz-transition: all 0.75s linear;
+    -ms-transition: all 0.75s linear;
+    -o-transition: all 0.75s linear;
+    transition: all 0.75s linear;
+    height: 100%;
+    width: 500% !important;
+}
+/*elementos que contiene el contenedor animado*/
+.element-cinco,.element-cuatro,.element-tres,.element-dos,.element-uno {
+    min-height: 300px;
+    max-height: 100%;
+    width: 100%;
+}
+.element-cinco img,.element-cuatro img,.element-tres img,.element-dos img,.element-uno img{
+    height: 405px;
+    width: 100%;
+    border-radius: 1%;
+}
+/*flotando las imagenes y dividiendo por 4 partes el contenedor animado*/
+.slider-element {
+    float: left;
+    width: 20%;
+}
+/*animacion para realizar efecto de auto-slider*/
+@-webkit-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+    15%{
+      margin-left: 0;
+    }
+    30% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    65%{
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+    88%{
+      margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@-moz-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+    15%{
+      margin-left: 0;
+    }
+    30% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    65%{
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+    88%{
+      margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+
+/*contenido principal de las paginas*/
+
+
+#content2{
+	width: 95%;
+	/*margin: 0px auto;*/
+	margin: 2%;
+	clear: left;
+	background-color: rgba(244,244,244,0.29);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 6px;
+	height: 500px;
+	}
+
+#content{
+	width: 95%;
+	/*margin: 0px auto;*/
+	margin: 2%;
+	clear: left;
+	background-color: rgba(244,244,244,0.29);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 6px;
+	height: 2500px;
+	}
+
+
+#content:hover {
+    background-color:  #aaa;
+}
+
+
+#contenido{
+	width: 960px;
+	/*margin: 0px auto;*/
+	clear: left;
+	padding: 30px;
+    margin-left: 150px;
+	
+}
+
+#imgDesc {
+    background-color: transparent;
+}
+
+
+/*opacar las imagenes*/
+.lugar img{
+	opacity: 0.5;
+	transition: 2s;
+
+}
+.lugar img:hover{
+	opacity: 1;
+}
+
+
+#contenido div:nth-child(3n+1){
+	margin-left: 0px;
+}
+
+#contenido div:nth-child(3n){
+	margin-right: 0px;
+}
+
+.boton{
+	background-color: black;
+	padding: 7px;
+	border-radius: 3px;
+	
+	margin-top: 10px;
+	font-size: .9em;
+	text-align: center;
+	
+}
+.restau{
+	text-decoration: none;
+	color: white;
+}
+
+#descrip{
+	width: 300px;
+    height: 1100px;
+    float: left;
+}
+
+#descrip article{
+	text-align: justify;
+}
+
+
+
+
+/*Pie de pagina*/
+footer{
+	text-align: center;
+	margin: 0;
+	font-size: .9em;
+	line-height: 2;
+	clear: both;
+	background-color: #464d52;
+	color: white;
+	width: 100%;
+	padding-top: 5px;
+}
+/*Estilo de Reservaciones*/
+
+section#reservacion{
+	column-count: 2;
+	column-gap: 10px;
+	-webkit-column-count:2;
+	-webkit-column-gap:10px;
+	-moz-column-count:2;
+	-moz-column-gap:10px;
+	}
+div#reser{
+	background-color: black;
+	color: white;
+	width: 90%;
+	margin: 5%;
+}
+
+
+
+
+/*otra pag*/
+#M:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transition: 2s;
+	-webkit-transition: 2s;
+	background-color: black;
+	color: white;
+}
+
+#V,#M{
+	margin: 30px 0px 30px 15px; 
+	padding: 5%;
+	background-color:#FAF3DD;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#V:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transition: 2s;
+	-webkit-transition: 2s;	
+	background-color: black;
+	color: white;
+}
+
+#descripcion {
+    text-align: justify;
+    margin-left: 100px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+#nana {
+    margin-left: 550px;
+}
+
+.lugar{
+	width: 90%;
+	height: 550px;
+	padding: 20px;
+	
+	margin-top: 10px;
+	/*margin: 1%;*/
+	background-color: white;
+	/*margin: 30px 15px;*/
+	border: solid 5px black;
+	border-radius: 8px;
+	text-align: justify;
+	
+}
+
+
+#contenedor_imagenes{
+	float: left;
+	padding-left: 30%;
+	margin-left: 20%;
+
+}
+
+#pruebaimg {
+	width: 350px;
+	height: 450px;
+	float: left;
+	margin-top: 50px;
+	
+}
+
+
+#caja1 {
+	float: left;
+	width: 55%;
+	margin-left: 30px;
+}
+
+#imgtitulo1 {
+	margin-left: 12%;
+}
+
+#imgtitulo2 {
+	margin-left: 20%;
+}
+
+#imgtitulo3 {
+	margin-left: 10%;
+}
+
+#imgtitulo4 {
+	margin-left: 15%;
+}
+
+#bannerpersonajes {
+	margin-left: 20%;
+	border-radius: 5px;
+}

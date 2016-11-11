@@ -1,0 +1,24 @@
+#contenedor {
+ background-image: url('../img/fondojuego1.png');
+ width: 800px;
+ height: 460px;
+ margin-left: 20%;
+ background-size: 100% 100%;
+
+ }
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ body{font-family:Open Sans;
+
+ }
+
+ span {
+ text-align: center;
+ width: 100%;
+ font-size: 50px;
+ }
+
+ #ima {
+ 	visibility: hidden;
+ 	width: 10px;
+ 	height: 10px;
+ }
